@@ -1,6 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color: aqua;
 }
 footer{
     background-color: azure;
+}
+
+nav{
+    background-color: crimson;
+    height: 65px;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 35px;
+}
+.clerarfix{
+    clear: both;
 }
